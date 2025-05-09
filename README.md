@@ -12,7 +12,8 @@
 
 
 🧱 **Architecture**
-   ![Architecture Diagram](Achitecture.jpeg)
+
+   ![Architecture Diagram](Architecture.jpeg)
 
 📖 **Overview**
 
