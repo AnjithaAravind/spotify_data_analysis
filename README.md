@@ -11,7 +11,7 @@
 - Python (Spotipy, Pandas, Boto3)
 
 
-🧱 **Architecture** (Achitecture.jpeg)
+🧱 ![**Architecture Diagram**](Architecture.jpeg)
 
 📖 **Overview**
 
