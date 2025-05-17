@@ -1,6 +1,6 @@
-#**Spotify Data Pipeline Project**
+# **Spotify Data Pipeline Project**
 
-##🛠 **Technologies Used**
+🛠 **Technologies Used**
 
 - Spotify API
 - AWS Lambda
@@ -11,11 +11,11 @@
 - Python (Spotipy, Pandas, Boto3)
 
 
-##🧱 **Architecture**
+🧱 **Architecture**
 
    ![Architecture Diagram](Architecture.jpeg)
 
-##📖 **Overview**
+📖 **Overview**
 
 1. Data Extraction: AWS Lambda function using the Spotify API to fetch playlist data and store it as raw JSON in S3.
 2. Data Transformation: Python script running in AWS Lambda processes raw JSON into structured album, artist, and song data and stores them back in S3.
@@ -23,7 +23,7 @@
 4. Data Consolidation: Final cleaned CSV is created by merging albums, artists, and songs, then uploaded to S3(`final_clean_spotify_data.csv`).
 5. Data Loading: A Snowflake SQL script loads the cleaned CSV from S3 into a Snowflake table.
 
-##📌 **Conclusion**
+📌 **Conclusion**
 
 This project demonstrates a complete Spotify data pipeline that integrates cloud services and modern data tools. From data extraction via the Spotify API to transformation, streaming, and 
 loading into Snowflake, the pipeline ensures clean, query-ready music data. It showcases the power of AWS Lambda, S3, Kafka, and Snowflake working together for efficient, end-to-end data
