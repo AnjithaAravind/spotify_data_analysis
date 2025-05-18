@@ -1,4 +1,5 @@
 # **Spotify Data Pipeline Project**
+The project demonstrates a full ETL pipeline using cloud services and streaming tools, offering a scalable way to analyze Spotify playlist data.
 
 ### **🛠Technologies Used**
 
